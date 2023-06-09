@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class WebkulDialog extends StatelessWidget {
-  const WebkulDialog({
+class WebkulAlertDialog extends StatelessWidget {
+  const WebkulAlertDialog({
     this.icon,
     this.title,
     this.message,

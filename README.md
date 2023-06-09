@@ -1,20 +1,18 @@
 
-=======
- 
 # Webkul Alert Box
 
-Fancy container package lets you add a beautiful gradient container to your Flutter app.
+Fancy webkul alert package lets you add a beautiful alert box to your Flutter app.
 
 ## Installation 
 
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  flutter_webkul_alert_box: ^0.0.1
+  flutter_webkul_alert_box: ^0.0.3
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
-import 'package:fancy_containers/WebkulDialog.dart';
+import 'package:flutter_webkul_alert_box/flutter_webkul_alert_box.dart';
 ```
 
 
@@ -48,7 +46,7 @@ class WebkulAlertClass extends StatelessWidget {
                   onPressed: () {
                     showDialog(
                       context: context,
-                      builder: (ctx) => WebkulDialouge(
+                      builder: (ctx) => WebkulAlertDialog(
                         icon: Icon(
                           Icons.add_alert,
                           color: Colors.teal,
@@ -79,4 +77,3 @@ class WebkulAlertClass extends StatelessWidget {
 
 ```
 
->>>>>>> d86824b (readme.md file details added)

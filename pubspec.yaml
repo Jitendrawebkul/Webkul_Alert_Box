@@ -1,7 +1,7 @@
 name: flutter_webkul_alert_box
 description: A new Flutter package.
-version: 0.0.1
-homepage: https://github.com/Jitendrawebkul/WebkulDialog
+version: 0.0.3
+homepage: https://github.com/Jitendrawebkul/Webkul_Alert_Box
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
