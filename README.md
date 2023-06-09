@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 =======
  
 # Webkul Alert Box
